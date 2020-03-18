@@ -1,0 +1,23 @@
+{
+    "name": "SwarmB",
+    "type": "dynamic",
+    "description": "Swarm!  For when a Zerg Rush is protected by copyright.",
+    "shape": [
+        { "x": -5, "y": 5 },
+        { "x": 0, "y": 2 },
+        { "x": 5, "y": 5 },
+        { "x": 2, "y": 0 },
+        { "x": 5, "y": -5 },
+        { "x": 0, "y": -2 },
+        { "x": -5, "y": -5 },
+        { "x": -2, "y": 0 }
+    ],
+    "friction": {
+      "collision": 2,
+      "linear": 20,
+      "rotational": 200
+    },
+    "sensors": [],
+    "mass": 0.25,    
+    "controller": "lib/swarmB.so"
+}

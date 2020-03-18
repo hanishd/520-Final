@@ -1,0 +1,28 @@
+{
+    "name": "Weapon",
+    "type": "dynamic",
+    "description": "Weapon!  Insert pin A into slot B for best effect.",
+    "shape": [
+        { "x": -1, "y": 15 },
+        { "x": -1, "y": 24 },
+        { "x": -10, "y": 20 },
+        { "x": -12, "y": 25 },
+        { "x": -10, "y": 30 },
+        { "x": -1, "y": 26 },
+        { "x": 0, "y": 30 },
+        { "x": 1, "y": 26 },
+        { "x": 10, "y": 30 },
+        { "x": 12, "y": 25 },
+        { "x": 10, "y": 20 },
+        { "x": 1, "y": 24 },
+        { "x": 1, "y": 15 }
+    ],
+    "friction": {
+      "collision": 2,
+      "linear": 20,
+      "rotational": 200
+    },
+    "sensors": [],
+    "mass": 0.2,    
+    "controller": "lib/weapon.so"
+}

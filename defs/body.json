@@ -1,0 +1,180 @@
+{
+  "name": "Body",
+  "type": "dynamic",
+  "description": "Body! Do not shake.",
+  "shape": [
+        { "x": -25, "y": 5 },
+        { "x": -23, "y": 8 },
+        { "x": -20, "y": 10 },
+        { "x": -20, "y": -10 },
+        { "x": -20, "y": 10 },
+        { "x": -10, "y": 12 },
+        { "x": 10, "y": 12 },
+        { "x": 20, "y": 10 },
+        { "x": 20, "y": -10 },
+        { "x": 20, "y": 10 },
+        { "x": 23, "y": 8 },
+        { "x": 25, "y": 5 },
+        { "x": 25, "y": -5 },
+        { "x": 23, "y": -8 },
+        { "x": 20, "y": -10 },
+        { "x": 15, "y": -11 },
+        { "x": -15, "y": -11 },
+        { "x": -20, "y": -10 },
+        { "x": -23, "y": -8 },
+        { "x": -25, "y": -5 }
+  ],
+  "friction": {
+    "collision": 5,
+    "linear": 40,
+    "rotational": 600
+  },
+  "sensors": [
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": 1.6
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": 1.4
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": 1.2
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": 1.0
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": 0.8
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": 0.6
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": 0.4
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": 0.2
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": 0.0
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": -0.2
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": -0.4
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": -0.6
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": -0.8
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": -1.0
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": -1.2
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": -1.4
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": 30
+      },
+      "direction": -1.6
+    },
+    {
+      "type": "range",
+      "location": {
+        "x": 0,
+        "y": -20
+      },
+      "direction": -3.14
+    }
+  ],
+  "mass": 1,
+  "controller": "lib/body.so"
+}

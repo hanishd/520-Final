@@ -1,0 +1,24 @@
+{
+    "name": "Shield",
+    "type": "dynamic",
+    "description": "Shield!  I got a rock.",
+    "shape": [
+        { "x": -10, "y": 15 },
+        { "x": -12, "y": 17 },
+        { "x": -9, "y": 19 },
+        { "x": -3, "y": 20 },
+        { "x": 0, "y": 22 },
+        { "x": 3, "y": 20 },
+        { "x": 9, "y": 19 },
+        { "x": 12, "y": 17 },
+        { "x": 10, "y": 15 }
+    ],
+    "friction": {
+      "collision": 10,
+      "linear": 20,
+      "rotational": 200
+    },
+    "sensors": [],
+    "mass": 4,    
+    "controller": "lib/shield.so"
+}

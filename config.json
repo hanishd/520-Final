@@ -1,0 +1,134 @@
+{
+
+  "name": "The Bilestoad 2",
+  "ip": "0.0.0.0",
+  "port": 8765,
+
+  "agents": [
+    {
+      "definition": "defs/management.json",
+      "style": {
+        "fill": "gray",
+        "stroke": "black"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/body.json",
+      "style": {
+        "fill": "lightgreen",
+        "stroke": "black"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/shield.json",
+      "style": {
+        "fill": "black",
+        "stroke": "black"
+      },
+      "position": {
+        "x": 20,
+        "y": 0,
+        "theta": 0.2
+      }
+    },
+    {
+      "definition": "defs/weapon.json",
+      "style": {
+        "fill": "red",
+        "stroke": "black"
+      },
+      "position": {
+        "x": -20,
+        "y": 0,
+        "theta": -0.2
+      }
+    }
+  ],
+
+  "statics": [
+      {
+          "style": { "fill": "gray", "stroke": "none" },
+          "shape": [
+              { "x": -550, "y": 250 },
+              { "x": -250, "y": 550 },
+              { "x": -240, "y": 540 },
+              { "x": -540, "y": 240 }
+          ]
+      },
+      {
+          "style": { "fill": "gray", "stroke": "none" },
+          "shape": [
+              { "x": -250, "y": 550 },
+              { "x": 250, "y": 550 },
+              { "x": 240, "y": 540 },
+              { "x": -240, "y": 540 }
+          ]
+      },
+      {
+          "style": { "fill": "gray", "stroke": "none" },
+          "shape": [
+              { "x": 250, "y": 550 },
+              { "x": 550, "y": 250 },
+              { "x": 540, "y": 240 },
+              { "x": 240, "y": 540 }
+          ]
+      },
+      {
+          "style": { "fill": "gray", "stroke": "none" },
+          "shape": [
+              { "x": 550, "y": 250 },
+              { "x": 550, "y": -250 },
+              { "x": 540, "y": -240 },
+              { "x": 540, "y": 240 }
+          ]
+      },
+      {
+          "style": { "fill": "gray", "stroke": "none" },
+          "shape": [
+              { "x": 550, "y": -250 },
+              { "x": 250, "y": -550 },
+              { "x": 240, "y": -540 },
+              { "x": 540, "y": -240 }
+          ]
+      },
+      {
+          "style": { "fill": "gray", "stroke": "none" },
+          "shape": [
+              { "x": 250, "y": -550 },
+              { "x": -250, "y": -550 },
+              { "x": -240, "y": -540 },
+              { "x": 240, "y": -540 }
+          ]
+      },
+      {
+          "style": { "fill": "gray", "stroke": "none" },
+          "shape": [
+              { "x": -250, "y": -550 },
+              { "x": -550, "y": -250 },
+              { "x": -540, "y": -240 },
+              { "x": -240, "y": -540 }
+          ]
+      },
+      {
+          "style": { "fill": "gray", "stroke": "none" },
+          "shape": [
+              { "x": -550, "y": -250 },
+              { "x": -550, "y": 250 },
+              { "x": -540, "y": 240 },
+              { "x": -540, "y": -240 }
+          ]
+      }
+
+  ]
+
+}
